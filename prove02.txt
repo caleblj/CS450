@@ -1,0 +1,32 @@
+When your assignment is complete, please answer the questions in this text file and upload it to I-Learn.
+
+1. Please provide the URL of your public GitHub repository.
+
+https://github.com/caleblj/CS450
+2. Briefly describe your overall approach to the task and highlight the most difficult part of this assignment.
+The project wasn't too difficult and there wasn't necessarily a "most difficult part". The only thing that took awhile
+was getting the KNN algorithm correct by trial and error.
+
+3. Briefly describe your process for handling numeric data on different scales (i.e., normalizing).
+it was a matter of keeping the information for the sets saved in an array and then using a comparrison for the input and the
+KNN algorithm. Using k to find a sum to find where the data stands.
+
+4. Describe your results for the Iris data set. (For example, what level of accuracy did you see for different values of K?
+My accuracy was around 90% every time. Occassionally it would change to a little higher but would stay very close to 90.
+
+5. How did your implementation compare to existing implementations?
+They were very similar. It was a matter of taking the code that was given and modifying it to fit the data that we were given.
+
+6. Describe anything you did to go above and beyond the minimum standard requirements.
+I mostly met the requirements to follow what was needed for an A but will be going back to add more into it.
+
+7. Please select the category you feel best describes your assignment:
+A - Some attempt was made
+B - Developing, but significantly deficient
+C - Slightly deficient, but still mostly adequate
+D - Meets requirements
+E - Shows creativity and excels above and beyond requirements
+
+D
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I have met the requirements and feel like my percentage is correct to what it should be.
