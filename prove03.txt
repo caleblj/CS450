@@ -1,0 +1,37 @@
+When your assignment is complete, please answer the questions in this text file and upload it to I-Learn.
+
+1. Please provide the URL of your public GitHub repository.
+https://github.com/caleblj/CS450
+
+2. What was the most difficult part of this assignment?
+Trying to find out how to do the regression
+
+3. Briefly describe your process for handling non-numeric data.
+Simply give each piece of data a number to compare it with
+
+4. Briefly describe your process for missing data.
+Replaced each piece of missing data with a simple NaN
+
+5. Describe your results for the Car Evaluation dataset.
+90% accuracy
+
+6. Describe your results for the Pima Indian dataset.
+80% accuracy
+
+7. Describe your results for the Automobile MPG dataset.
+10% accuracy. I was unable to get the regression to work properly
+
+8. Describe anything you did to go above and beyond the minimum standard requirements.
+Was trying to solve the regression and my friend and I were trying to solve it together but it took most our time.
+So I wasn't able to go much over the standards.
+
+9. Please select the category you feel best describes your assignment:
+A - Some attempt was made
+B - Developing, but significantly deficient
+C - Slightly deficient, but still mostly adequate
+D - Meets requirements
+E - Shows creativity and excels above and beyond requirements
+C
+
+10. Provide a brief justification (1-2 sentences) for selecting that category.
+Was able to get 2/3 of the assignments working but the last piece I ran out of time and couldn't solve it.
