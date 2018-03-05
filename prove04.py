@@ -1,12 +1,11 @@
 import numpy as np
+import pandas as pd
+from anytree import Node, RenderTree, LevelOrderIter, findall
 from sklearn import datasets
 from sklearn.model_selection import KFold
 import scipy  as sc
-import pandas as pd
-from anytree import Node, RenderTree, LevelOrderIter, findall
 
 
-# DecisionTree
 class DecisionTreeModel:
     def __get_probs(self, values):
         probs_array = []
@@ -26,7 +25,6 @@ class DecisionTreeModel:
         values_in_column = len(np.unique(dataframe[column]))
         total_entropy = 0
         for name, group in grouped:
-            # For weighted average
             values_for_group = len(group['class'])
             p_data = group['class'].value_counts() / len(group)
             total_entropy += sc.stats.entropy(p_data, base=2) * values_for_group
@@ -87,7 +85,6 @@ class DecisionTreeModel:
     def predict(self, test):
         node = Node('root', value=0)
         self.build_tree(node, self.data_trained)
-        # Displaying tree
         for pre, fill, node_c in RenderTree(node):
             print("%s%s: %s" % (pre, node_c.name, node_c.value))
         targets_predicted = []

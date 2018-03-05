@@ -1,0 +1,63 @@
+When your assignment is complete, please answer the questions in this text file and upload it to I-Learn.
+
+
+1. Please provide a link to your classifier in your public GitHub repo.
+https://github.com/caleblj/CS450/blob/master/prove04.py
+
+2. Briefly describe your overall approach to the task and highlight the most difficult part of this assignment.
+Started by calculating the entropy of each class to determon which node would become the root. Then use the entropy to determine which class
+would be used next down the tree to create a physical aspect of the actual decision tree. The hardest part was getting the calculations and fixing
+it so if the system tested something that wasn't there to guess which it would be.
+
+3. Describe the dataset that you used.
+Lenses
+
+4. Describe your results on this dataset. (e.g., What was the size of the tree? How did your implementation compare to existing implementations? How did your decision tree compare to your kNN classifier)
+The size was 5 nodes long. It was much better and more accurate than the KNN classifier because it had direct paths that it could use for its testing that gave a direct
+result. It didn't have to guess based on who was closest to it. The accuracy was 100% with the Desicion tree versus the KNN which was around 80-90% accurate.
+
+5. Include a textual representation of the tree your algorithm produced for the iris dataset.
+
+root: 0
++-- tear_production: 1
+¦   +-- class: 3
++-- tear_production: 2
+    +-- astigmatic: 1
+    ¦   +-- age: 1
+    ¦   ¦   +-- class: 2
+    ¦   +-- age: 2
+    ¦   ¦   +-- class: 2
+    ¦   +-- age: 3
+    ¦       +-- spectacle: 1
+    ¦       ¦   +-- class: 3
+    ¦       +-- spectacle: 2
+    ¦           +-- class: 2
+    +-- astigmatic: 2
+        +-- age: 1
+        ¦   +-- class: 1
+        +-- age: 2
+        ¦   +-- spectacle: 1
+        ¦   ¦   +-- class: 1
+        ¦   +-- spectacle: 2
+        ¦       +-- class: 3
+        +-- age: 3
+            +-- spectacle: 1
+            ¦   +-- class: 1
+            +-- spectacle: 2
+                +-- class: 3
+
+6. If applicable, please describe anything you did to go above and beyond and the results you saw.
+N/A
+
+7. Please select the category you feel best describes your assignment:
+A - Some attempt was made
+B - Developing, but significantly deficient
+C - Slightly deficient, but still mostly adequate
+D - Meets requirements
+E - Shows creativity and excels above and beyond requirements
+
+D
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+Was able to get the tree working but wasn't able to go into it too much. Although this algorithm could help for
+the group project so will be looking more into going above.
